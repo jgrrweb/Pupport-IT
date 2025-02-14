@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Support</title>
+    <link href="ttps//fonts.googleapis.com/ccs?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+        <header class="site-header inicio">
+            <div class="contenedor contenido-header">
+                <div class="barra">
+                    <a href="/">
+                        <img src="img/mpg.png" alt="Logo Marriott Playa Grande">
+                    </a>
+                    <nav class="navegacion">
+                        <a href="nosotros.html">Nosotros</a>
+                        <a href="tipsit.html">Tips IT</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="contactos.html">contactos</a>
+                    </nav>
+                </div>
+
+            </div><!--contenedor-->
+        </header>
+
+        <main class="contenedor seccion contenido-centrado">
+
+            <h1 class="fw-3rem centrar-texto">Formulario Para Solicitar Ingresos y Egresos</h1>
+
+            <h2 class="fw-3rem centrar-texto">Solicitud de Acceso a los Sistemas Marriott Playa Grande</h2>
+
+            <form class=contacto action="">
+
+                <fieldset>
+
+                    <legend>Datos del Anfitrion</legend>
+
+                    <div Class="">
+                        <p>Fecha de Solicitud</p>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha">
+                        <label for="hora">Hora</label>
+                        <input type="time" id="hora" min="08:30" max="16:00">
+                    </div>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Tu Nombre">
+
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" placeholder="Tu Apellido">
+
+               
+                </fieldset>
+
+                    <fieldset>
+
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="Usuario" placeholder="Tu Usuario">
+
+                    <label for="opciones">Departamento</label>
+                    <select id="opciones">
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="">1020 / Rooms - Front Office</option>
+                        <option value="">1030 / Rooms - Housekeeping</option>
+                        <option value="">2000 / Kitchen</option>
+                        <option value="">2102 / Playa Grande Regional Cuisine</option>
+                        <option value="">2181 / Room Service</option>
+                        <option value="">2201 / Lobby Bar</option>
+                        <option value="">2210 / Brisas Pool Bar</option>
+                        <option value="">2311 / Banquet Department</option>
+                        <option value="">2401 / Event Technology</option>
+                        <option value="">2401 / 3231 / Recreation</option>
+                        <option value="">2401 / 3741 / Valet Dry Cleaning</option>
+                        <option value="">4101 / General & Administrative</option>
+                        <option value="">4102 / Human Resources</option>
+                        <option value="">4103 / Loss Prevention</option>
+                        <option value="">4104 / Accounting</option>
+                        <option value="">4301 / Repairs & Maintenance</option>
+                        <option value="">4701 / Sales & Marketing</option>
+                        <option value="">4103 / 5301 / Laundry</option>
+
+
+                        
+                        <label for="opciones">Departamento</label>
+
+                        <div class="forma-contacto">
+                            <label for="teledono">Teléfono</label>
+                            <input type="radio" name="contacto" value="telefono" id="telefono">
+    
+                            <label for="presencial">Presencial</label>
+                            <input type="radio" name="contacto" value="presencial" id="presencial">
+                        </div>
+
+
+                    <label for="opciones">Programas</label>
+                    <select id="opciones">
+                        <option value="" disabled selected>-- Seleccione --</option>
+                        <option value="">Windows</option>
+                        <option value="">Opera</option>
+                        <option value="">Profit</option>
+
+                    </select>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Tu Correo Electrónico" required>
+
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" id="telefono" placeholder="Tu Teléfono" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea name="mensaje"></textarea>
+                
+                </fieldset>
+
+                <fieldset>
+
+
+                    <legend>Contacto</legend>
+
+                    <p>Como Desea Ser Contactado</p>
+                    
+                    <div class="forma-contacto">
+                        <label for="teledono">Teléfono</label>
+                        <input type="radio" name="contacto" value="telefono" id="telefono">
+
+                        <label for="presencial">Presencial</label>
+                        <input type="radio" name="contacto" value="presencial" id="presencial">
+                    </div>
+
+                    <p>Elija la fecha y la hora para ser atendido</p>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha">
+                    <label for="hora">Hora</label>
+                    <input type="time" id="hora" min="08:30" max="16:00">
+
+                </fieldset>
+
+                <input type="submit" value="Enviar" class="boton boton-naranja">
+
+            </form>
+
+        </main>
+
+        <footer class="site-header inicio">
+            <nav class="navegacion">
+              
+                <a href="nosotros.html">Nosotros</a>
+                <a href="tipsit.html">Tips IT</a>
+                <a href="blog.html">Blog</a>
+                <a href="contactos.html">contactos</a>
+                <p>Todos Los Derechos Reservados &copy;</p>
+            </nav>
+        </footer>
+        
+        </body>
+        </html>
